@@ -1,22 +1,15 @@
 # utils
-import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 from utils import *
 # sklearn
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import balanced_accuracy_score
 from sklearn.preprocessing import LabelBinarizer
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import confusion_matrix
 # keras/TensorFlow
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv1D, GlobalMaxPooling1D, MaxPooling1D, Dropout, GRU, Bidirectional, \
     BatchNormalization
-from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.backend import clear_session
 from tensorflow.keras.optimizers import Adam
-from keras import regularizers
 
 # set random seed
 np.random.seed(123)
