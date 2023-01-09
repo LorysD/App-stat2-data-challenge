@@ -1,0 +1,14 @@
+
+A- # kmers => 6
+B- padding / truncating?
+
+1- bag of kmers + MLP
+	# couches
+	tailles couches
+2- one hot kmers + CNN
+	# couches
+	tailles couches
+	tailles filtres
+
+3- modèles pré-entrainés + HL
+4- complémentaires des séquences
